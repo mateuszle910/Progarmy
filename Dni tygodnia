@@ -1,0 +1,39 @@
+print('Poczatek Programu:')
+print()
+
+# Definiujemy zmienne
+dzien = 'AWtorek'
+dzisiaj ='Sobota'
+
+
+dni_pracujace = [
+        'Poniedzialek',
+        'Wtorek',
+        'Sroda',
+        'Czwartek',
+        'Piatek',
+]
+
+weekend = [
+        'Sobota',
+        'Niedziela',
+]
+
+print()
+print('Dni pracujace:', dni_pracujace)
+print('Weekedn:', weekend)
+print()
+
+
+# Sprawdza czy dzien jest w dni_pracujace
+if dzien == dzisiaj:
+        print('Tak dzisiaj jest:', dzisiaj)
+elif dzien in dni_pracujace:
+        print('Dzisiaj jest dzien pracujacy')
+elif dzien in weekend:
+        print('Dzisiaj jest weekend')
+else:
+        print('Zle wpisales dzien tygodnia. Wpisales:', dzien)
+print()
+print()
+print('Koniec Programu.')
