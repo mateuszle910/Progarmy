@@ -2,8 +2,10 @@ print('Poczatek Programu:')
 print()
 
 # Definiujemy zmienne
-dzien = 'AWtorek'
+
+dzien = input('WPisz dzien tygodnia:')
 dzisiaj ='Sobota'
+
 
 
 dni_pracujace = [
@@ -36,4 +38,3 @@ else:
         print('Zle wpisales dzien tygodnia. Wpisales:', dzien)
 print()
 print()
-print('Koniec Programu.')
