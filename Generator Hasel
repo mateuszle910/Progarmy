@@ -1,0 +1,27 @@
+import random
+import string
+
+# Geneartor Hasła
+# - string - ciag znakow
+# - losowe hasło
+# - określona ilość znków 
+# - Duze litery, 2
+# - male lotery, 2
+# - Znaki specjalne, 2
+# - Zakładka generator hasel
+
+n_znakow = 8
+n_znakow_typu = 2
+
+lowercase = string.ascii_lowercase  
+uppercase = string.ascii_uppercase
+punctuation = string.punctuation
+digits = string.digits
+wszystkie_znaki = lowercase + uppercase + punctuation + digits
+
+losowe_znaki = random.sample(wszystkie_znaki, n_znakow)
+haslo = '' .join(losowe_znaki)
+
+print()
+print(haslo)
+print()
